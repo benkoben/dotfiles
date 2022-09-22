@@ -1,0 +1,3 @@
+*.sqlite
+*.sqlite*
+.config/iterm2/AppSupport/SavedState/lock
