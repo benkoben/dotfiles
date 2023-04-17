@@ -4,8 +4,7 @@ alias cp='cp -v'
 alias ll='ls -la'
 alias ipa='ip -c a'
 alias zshrc='/usr/bin/vim ~/.zshrc'
-alias nvimrc='/usr/bin/vim ~/.config/nvim/init.vim'
-alias vimrc='/usr/bin/vim ~/.vimrc'
+alias vim=nvim
 alias projects='nvim ~/Desktop/projects'
 alias configs='nvim ~/.config'
 

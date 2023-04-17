@@ -144,7 +144,7 @@ bindsym $mod+Ctrl+Left workspace prev
 #                 set $ws2 2:
 set $ws1 Browser
 set $ws2 2
-set $ws3 3
+set $ws3 Notes
 set $ws4 4
 set $ws5 5
 set $ws6 6
@@ -183,6 +183,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
 assign [class="firefox"] $ws1
+assign [class="obsidian"] $ws3
 # assign [class="Pale moon"] $ws2
 # assign [class="Pcmanfm"] $ws3
 # assign [class="Skype"] $ws5

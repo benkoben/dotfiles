@@ -11,6 +11,7 @@ export EDITOR=nvim
 export PATH="$PATH:/usr/local/sbin:$DOTFILES/bin:$HOME/.local/bin"
 export KUBECONFIG=/Users/kooijman/.kube/config.yaml
 export ZSH="$HOME/.oh-my-zsh"
+export PATH=$PATH:/usr/local/go/bin
 
 source_if_exists $ZSH/oh-my-zsh.sh
 source_if_exists $HOME/.env.sh
