@@ -8,6 +8,9 @@ alias vim=nvim
 alias projects='nvim ~/Desktop/projects'
 alias configs='nvim ~/.config'
 
+# M1 mac aliases 
+alias funcx86='/usr/bin/arch -x86_64 /usr/local/bin/func'
+
 # Mac setup for pomo
 alias work="timer 60m && terminal-notifier -message 'Pomodoro'\
         -title 'Work Timer is up! Take a Break 😊'\
