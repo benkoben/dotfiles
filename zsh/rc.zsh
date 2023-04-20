@@ -17,6 +17,7 @@ source_if_exists $ZSH/oh-my-zsh.sh
 source_if_exists $HOME/.env.sh
 source_if_exists $HOME/powerlevel10k/powerlevel10k.zsh-theme
 source_if_exists $DOTFILES/zsh/history.zsh
+source_if_exists $DOTFILES/zsh/autocomplete.zsh
 source_if_exists $DOTFILES/zsh/git.zsh
 source_if_exists $DOTFILES/zsh/aliases.zsh
 source_if_exists $DOTFILES/zsh/powerlevel10k.zsh-theme
@@ -33,3 +34,4 @@ autoload -Uz compinit && compinit
 
 
 
+source <(kubectl completion zsh)
