@@ -41,6 +41,9 @@ return require('packer').startup(function(use)
     }
   }
 
+  -- auto-pairs
+  use('jiangmiao/auto-pairs')
+
   -- fugitive
   use ('tpope/vim-fugitive')
   -- undotree
