@@ -2,3 +2,4 @@
 
 pacman -S neovim
 pacman -S ripgrep
+pacman -S colordiff

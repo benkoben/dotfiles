@@ -1,0 +1,11 @@
+brew install colordiff
+brew install rg
+brew install neovim
+brew install bicep
+brew install azure-cli
+brew install helm
+brew install kubelogin
+brew install kubernetes-cli
+brew install fzf
+brew install nmap
+brew install tldr
