@@ -1,3 +1,9 @@
 $DOTFILES/zsh/rc.zsh=$HOME/.zshrc
 $DOTFILES/zsh/oh-my-zsh=$HOME/.oh-my-zsh
 $DOTFILES/zsh/p10k.zsh=$HOME/.p10k.zsh
+$DOTFILES/zsh/aliases.zsh=$HOME/dotfiles/zsh/aliases.zsh
+$DOTFILES/zsh/history.zsh=$HOME/dotfiles/zsh/history.zsh
+$DOTFILES/zsh/paths.zsh=$HOME/dotfiles/zsh/paths.zsh
+$DOTFILES/zsh/plugins.zsh=$HOME/dotfiles/zsh/plugins.zsh
+$DOTFILES/zsh/functions.zsh=$HOME/dotfiles/zsh/functions.zsh
+$DOTFILES/zsh/autocomplete.zsh=$HOME/dotfiles/zsh/autocomplete.zsh
