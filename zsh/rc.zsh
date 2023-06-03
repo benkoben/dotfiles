@@ -16,7 +16,7 @@ source_if_exists () {
 export VISUAL=nvim
 export EDITOR=nvim
 export PATH="$PATH:/usr/local/sbin:$DOTFILES/bin:$HOME/.local/bin"
-export KUBECONFIG=/Users/kooijman/.kube/config.yaml
+export KUBECONFIG="$HOME/.kube/config.yaml"
 export ZSH="$HOME/.oh-my-zsh"
 export PATH=$PATH:/usr/local/go/bin
 
