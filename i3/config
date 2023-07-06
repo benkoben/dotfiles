@@ -274,7 +274,7 @@ mode "resize" {
 }
 
 # Lock screen
-bindsym $mod+9 exec --no-startup-id blurlock
+bindsym $mod+9 exec --no-startup-id /home/kooijman/.dotfiles/i3lock/pixel.sh
 
 # Autostart applications
 exec --no-startup-id setxkbmap -model pc105 -layout se -variant swerty -option 'lv3:ralt_switch'
