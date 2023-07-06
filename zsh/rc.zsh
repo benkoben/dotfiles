@@ -13,12 +13,13 @@ source_if_exists () {
     fi
 }
 
+export BROWSER=firefox
 export VISUAL=nvim
 export EDITOR=nvim
 export PATH="$PATH:/usr/local/sbin:$DOTFILES/bin:$HOME/.local/bin"
 export KUBECONFIG="$HOME/.kube/config.yaml"
 export ZSH="$HOME/.oh-my-zsh"
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/go/bin:$HOME/bin
 
 source_if_exists $ZSH/oh-my-zsh.sh
 source_if_exists $HOME/.env.sh
