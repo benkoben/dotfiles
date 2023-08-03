@@ -282,14 +282,13 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 #exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
-exec --no-startup-id feh --randomize --bg-fill /home/kooijman/.dotfiles/wallpapers
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
 # exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -time 10 -locker blurlock
+# exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always picom -f
@@ -374,3 +373,5 @@ client.background       #F8F8F2
 # Gaps
 gaps inner 5
 
+# Rotation of secondary monitor
+exec --no-startup-id xrandr --output DisplayPort-2 --auto --pos 0x0;xrandr --output HDMI-A-0 --rotate right --left-of DisplayPort-2;feh --bg-fill /home/kooijman/.dotfiles/wallpapers/screen1.jpg --bg-fill /home/kooijman/.dotfiles/wallpapers/screen2.jpg
