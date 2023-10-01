@@ -94,9 +94,9 @@ interval=10
 command=date '+%Y-%m-%d %H:%M:%S'
 interval=5
 
-[kubernetes]
-command=~/.config/i3blocks/kubernetes/kubernetes
-interval=10
+# [kubernetes]
+# command=~/.config/i3blocks/kubernetes/kubernetes
+# interval=10
 
 # Generic media player support
 #
