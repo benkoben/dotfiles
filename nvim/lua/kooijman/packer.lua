@@ -46,6 +46,8 @@ return require('packer').startup(function(use)
 
   -- fugitive
   use ('tpope/vim-fugitive')
+  -- Github copilot
+  use ('github/copilot.vim')
   -- undotree
   use 'mbbill/undotree'
 

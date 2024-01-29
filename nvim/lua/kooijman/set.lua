@@ -54,3 +54,6 @@ for type, icon in pairs({
 	local hl = "DiagnosticSign" .. type
 	vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 end
+
+-- Copilot 
+vim.g.copilot_assume_mapped = true 
