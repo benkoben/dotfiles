@@ -57,3 +57,4 @@ end
 
 -- Copilot 
 vim.g.copilot_assume_mapped = true 
+vim.api.nvim_set_keymap('i', '<Right>', "copilot#Accept('CR')", {expr = true, silent = true, replace_keycodes = false, noremap = true})
