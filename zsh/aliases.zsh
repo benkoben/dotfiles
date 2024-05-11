@@ -9,17 +9,17 @@ alias projects='nvim ~/Desktop/projects'
 alias configs='nvim ~/.config'
 alias k="kubectl"
 alias t="terraform"
-
+alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
 # M1 mac aliases 
 alias funcx86='/usr/bin/arch -x86_64 /usr/local/bin/func'
 
 # Mac setup for pomo
-alias work="timer 60m && terminal-notifier -message 'Pomodoro'\
+alias work="timer 45m && terminal-notifier -message 'Pomodoro'\
         -title 'Work Timer is up! Take a Break 😊'\
         -appIcon '~/Pictures/pumpkin.png'\
         -sound Crystal"
 
-alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
+alias rest="timer 5m && terminal-notifier -message 'Pomodoro'\
         -title 'Break is over! Get back to work 😬'\
         -appIcon '~/Pictures/pumpkin.png'\
         -sound Crystal"
@@ -34,4 +34,8 @@ function swns {
 
 function swctx {
     kubectl config get-contexts -o name | fzf | xargs -I {} bash -c 'kubectl config use-context {}; echo "Context set to \"{}\""'
+}
+
+function findrole {
+   az role definition list -ojson --query "[].{roleName:roleName}" | jq -r '.[].roleName' | fzf | xargs -I {} bash -c 'az role definition list -n "{}"'
 }
